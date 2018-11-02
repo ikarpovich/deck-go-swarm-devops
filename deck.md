@@ -16,11 +16,13 @@ theme: Letters from Sweden, 3
 - Secure in-house infrastructure
 - Cloud for customer facing products
 - Monitoring by looking into server rooms
-- Log analysis by *grep*
+- F&G log analysis system (F for *find* and G for *grep*)
 - Jenkins for tests, *manual* deployments
 - 4 products
 
 ---
+
+![](warp.png)
 
 # 2018
 
@@ -41,12 +43,12 @@ theme: Letters from Sweden, 3
 - Platform
 - Legacy
 
-<!--
+^ Had to maintain and improve business projects and incident support.
 Deployments were automated by the beginning of 2015.
 First microservice launched in July 2015.
 Docker for CI launched in March 2016.
 
-
+<!--
 Full timeline:
 Core product started October 2009
 --- First micro service started July 2015
@@ -66,6 +68,39 @@ K8s 1.4 September 26 2016
 
 ---
 
+![](bang.jpg)
+
+# Moving away from CDD[^*]
+
+[^*]: Chaos Driven Development
+
+- Deployment awareness
+- Ticketing system
+- Incident management
+- No more favourite IT people to go to
+- Iterative approach with steady value delivery
+
+---
+
+![](soyuz.jpg)
+
+# On the way to the bright future
+
+- Maintaining stability
+- Security by design
+- Increasing velocity
+- Supporting innovation
+
+---
+
+# Honouring legacy
+
+- Minimising incidents
+- Shutdown planning for software and infrastructure
+
+
+---
+
 ![](swarm.jpg)
 
 # Swarm?
@@ -78,7 +113,7 @@ Out of the box (*2016*):
 - Orchestration with Compose
 - Quick start, less maintenance
 
-Missing:
+^Missing:
 - Scheduler
 - Job runner
 - Configs, secrets (*2016*)
