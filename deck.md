@@ -1,11 +1,20 @@
 build-lists: true
 theme: Letters from Sweden, 3
+autoscale: true
 
 [.footer: #### Igor Karpovich]
 
 ## Go, Swarm and DevOps
 ### vs
 ## The Mighty Monolith
+
+---
+
+# Disclaimer
+
+## Not a true story at all
+## All persons and events are fictitious
+## No gophers were harmed
 
 ---
 
@@ -74,11 +83,36 @@ K8s 1.4 September 26 2016
 
 [^*]: Chaos Driven Development
 
-- Deployment awareness
-- Ticketing system
-- Incident management
 - No more favourite IT people to go to
+- Ticketing system
+- Change management and deployment awareness
+- Feedback loop
+- Incident management
 - Iterative approach with steady value delivery
+
+^ (External culture)
+Reducing WIP by stopping upstream
+Upstream & Downstream
+Kanban & Scrum
+
+---
+
+# DevOps :heart: Docker
+
+- Unified environments
+- No more "works on my machine"
+- Easy debugging
+- Full visibility in production for engineers
+
+^ (Internal culture)
+
+---
+
+# DevOps is *not*:
+
+- a job title
+- Ops telling Dev to DIY
+- giving out unlimited access to production
 
 ---
 
@@ -97,7 +131,7 @@ K8s 1.4 September 26 2016
 
 - Minimising incidents
 - Shutdown planning for software and infrastructure
-
+- Replacing monolith pieces with microservices calls
 
 ---
 
@@ -125,3 +159,62 @@ Out of the box (*2016*):
 # Goblin
 
 ## Microservice framework
+
+---
+
+## Some of Goblin's features
+
+- Runtime (module) management
+- Config management
+- Healthchecks
+- Storage & Cache
+- REST Client
+- WebSocket router
+- Monitoring metrics (Gin, WS router, go runtime)
+- Logging (context data injection, sentry integration)
+- Tracing
+
+^ Mention SDK
+
+---
+
+![](jaeger.png)
+
+# Distributed tracing
+## Trace everything!
+- SQL (GORM)
+- NoSQL (DynamoDB)
+- HTTP/WS Server (Gin)
+- MQ (SQS)
+- Events (SNS, Docker Broadcast)
+- HTTP Client
+
+---
+
+# Platform toolkit
+
+- Multi cluster self-deployment, i.e. edge router (traefik), CI, monitoring, logging
+- Secret management
+- Service wide event broadcast
+- SSO, identity management (ACL, JWT, SAML)
+- Scheduler
+- Job runner
+- Change Audit
+- Multi-route email delivery
+- Monitoring (InfluxDB, Grafana, Slack, TV dashboards)
+
+---
+
+![](palantir-ui.jpg)
+![right](palantir.png)
+
+# Palantir
+## Monitoring backend and TV Dashboard featuring visual Swarm
+
+
+- Pulls metrics from InfluxDB
+- Metric format is Telegraf compatible
+- YAML definition for Docker Stacks
+- Metric templates with YAML anchors
+
+---
