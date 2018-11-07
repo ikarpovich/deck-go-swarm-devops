@@ -96,23 +96,39 @@ Upstream & Downstream
 Kanban & Scrum
 
 ---
+![](docker.jpg)
 
 # DevOps :heart: Docker
 
+- Infrastructure as code
 - Unified environments
 - No more "works on my machine"
 - Easy debugging
-- Full visibility in production for engineers
 
 ^ (Internal culture)
 
 ---
 
+![](band.jpg)
+
 # DevOps is *not*:
 
-- a job title
+- A job title
 - Ops telling Dev to DIY
-- giving out unlimited access to production
+- Giving out unlimited access to production
+
+---
+
+![](base.png)
+
+# Version Zero
+## First microservice
+
+- HTTP API only
+- Monitoring coverage
+- Plugged into core app
+- Traditional deployment
+- Written in PHP
 
 ---
 
@@ -126,6 +142,8 @@ Kanban & Scrum
 - Supporting innovation
 
 ---
+
+![](castle.jpg)
 
 # Honouring legacy
 
@@ -166,15 +184,26 @@ Out of the box (*2016*):
 
 - Runtime (module) management
 - Config management
-- Healthchecks
 - Storage & Cache
 - REST Client
 - WebSocket router
 - Monitoring metrics (Gin, WS router, go runtime)
 - Logging (context data injection, sentry integration)
+- Healthchecks
 - Tracing
 
 ^ Mention SDK
+
+---
+
+![right](healthchecks.png)
+
+# Healthchecks as metrics
+
+- Docker native support
+- Expose metrics
+- Push to InfluxDB
+- Visualisation
 
 ---
 
@@ -182,12 +211,12 @@ Out of the box (*2016*):
 
 # Distributed tracing
 ## Trace everything!
-- SQL (GORM)
-- NoSQL (DynamoDB)
-- HTTP/WS Server (Gin)
-- MQ (SQS)
-- Events (SNS, Docker Broadcast)
+- HTTP/WS Server
 - HTTP Client
+- SQL
+- NoSQL
+- MQ
+- Events
 
 ---
 
@@ -218,3 +247,7 @@ Out of the box (*2016*):
 - Metric templates with YAML anchors
 
 ---
+
+# Questions!
+
+[.footer: #### Twitter: @ikarpovich]
