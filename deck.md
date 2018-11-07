@@ -1,5 +1,5 @@
 build-lists: true
-theme: Letters from Sweden, 3
+theme: Next, 1
 autoscale: true
 
 [.footer: #### Igor Karpovich]
