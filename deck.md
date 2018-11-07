@@ -124,7 +124,7 @@ Kanban & Scrum
 # Version Zero
 ## First microservice
 
-- HTTP API only
+- REST API only
 - Monitoring coverage
 - Plugged into core app
 - Traditional deployment
@@ -185,6 +185,7 @@ Out of the box (*2016*):
 - Runtime (module) management
 - Config management
 - Storage & Cache
+- HTTP Server
 - REST Client
 - WebSocket router
 - Monitoring metrics (Gin, WS router, go runtime)
