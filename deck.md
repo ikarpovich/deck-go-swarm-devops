@@ -185,10 +185,8 @@ Out of the box (*2016*):
 - Runtime (module) management
 - Config management
 - Storage & Cache
-- HTTP Server
-- REST Client
-- WebSocket router
-- Monitoring metrics (Gin, WS router, go runtime)
+- Transport (HTTP Server/Client, WS router)
+- Monitoring client and metrics (Gin, WS router, go runtime)
 - Logging (context data injection, sentry integration)
 - Healthchecks
 - Tracing
@@ -218,12 +216,14 @@ Out of the box (*2016*):
 - NoSQL
 - MQ
 - Events
+- Emails
 
 ---
 
 # Platform toolkit
 
-- Multi cluster self-deployment, i.e. edge router (traefik), CI, monitoring, logging
+- Clusters self-deployment (traefik, CI, monitoring, logging, tracing)
+- GitOps
 - Secret management
 - Service wide event broadcast
 - SSO, identity management (ACL, JWT, SAML)
